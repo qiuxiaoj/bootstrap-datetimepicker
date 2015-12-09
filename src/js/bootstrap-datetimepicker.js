@@ -1474,7 +1474,7 @@
                 if (picker[key] !== undefined) {
                     picker[key](value);
                 } else {
-                    throw new TypeError('option ' + key + ' is not recognized!');
+                    //throw new TypeError('option ' + key + ' is not recognized!');
                 }
             });
             return picker;
